@@ -38,7 +38,7 @@
 ------------------------------------------------------*/
 
 	var sections = $("section");
-	var navigation_links = $("#nav-wrap a");
+	var navigation_links = $(".nav-bar a");
 
 	sections.waypoint({
 
@@ -49,9 +49,9 @@
 			active_section = $(this);
 			if (direction === "up") active_section = active_section.prev();
 
-			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
+			var active_link = $('.nav-bar a[href="#' + active_section.attr("id") + '"]');
 
-         navigation_links.parent().removeClass("current");
+      navigation_links.parent().removeClass("current");
 			active_link.parent().addClass("current");
 
 		},
@@ -81,7 +81,7 @@
 
 		var h = $('header').height();
 		var y = $(window).scrollTop();
-      var nav = $('#nav-wrap');
+      var nav = $('.nav-bar');
 
 	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
 	      nav.fadeOut('fast');
@@ -161,7 +161,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
@@ -178,11 +178,3 @@
 
 
 });
-
-
-
-
-
-
-
-
