@@ -1,32 +1,23 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
+/* TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
    i. Footer
+*/
 
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
 /* a. General Styles
-/* ------------------------------------------------------------------ */
+*/
 
-body { background: #0f0f0f; }
+body {
+  background: #4b71c3;
+}
 
-/* ------------------------------------------------------------------ */
 /* b. Header Styles
-/* ------------------------------------------------------------------ */
+*/
 
 header {
    position: relative;
@@ -124,7 +115,9 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover {
+  color: #11ABB0;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -217,54 +210,6 @@ ul#nav li.current a { color: #F06000; }
 
 
 
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
-
-#about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
-}
-
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
-
-#about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
-   margin-bottom: 12px;
-}
-#about p {
-   line-height: 30px;
-   color: #7A7A7A;
-}
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* d. RESUME
@@ -276,9 +221,8 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 20px;
    overflow: hidden;
 }
-
-.resume-section .section-header {
-  padding-top: 5px;
+.resume-section-header {
+  padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -290,8 +234,12 @@ ul#nav li.current a { color: #F06000; }
   font: 'opensans-bold';
 }
 
-.resume-section a, .resume-section a:visited  { color: #11ABB0; }
-.resume-section a:hover, .resume-section a:focus { color: #313131; }
+.resume-section a, .resume-section a:visited  {
+  color: #3077f2;
+}
+.resume-section a:hover, .resume-section a:focus {
+  color: #333;
+}
 
 .resume-section h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -624,6 +572,8 @@ ul#nav li.current a { color: #F06000; }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
+
+
 
 /* ------------------------------------------------------------------
 /* g. Testimonials

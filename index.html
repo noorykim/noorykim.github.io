@@ -9,29 +9,31 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Mobile Specific Metas ================================================== -->
+  <!-- Mobile Specific Metas === -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- CSS ================================================== -->
+  <!-- link to CSS files == -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
 
-  <!-- Script ================================================== -->
+  <!-- JaveScript === -->
 	<script src="js/modernizr.js"></script>
 
-  <!-- browser tab icon -->
+  <!-- favicon : appears in browser tab -->
   <link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 
 <body>
 
-  <!-- Home ================================================== -->
   <header id="home">
 
+    <!-- navigation bar === -->
     <nav id="nav-wrap">
-
       <!-- option for mobile devices -->
       <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
       <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -39,19 +41,15 @@
       <!-- top floating NAVIGATION BAR -->
       <ul id="nav" class="nav">
         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-        <li><a class="smoothscroll" href="#resume">Resume</a></li>
-        <li><a class="smoothscroll" href="#experience">Experience</a></li>
+        <li><a class="smoothscroll" href="#experience">Work Experience</a></li>
         <li><a class="smoothscroll" href="#education">Education</a></li>
-          <!-- <ul>
-            <li><a class="smoothscroll dropdown-content" href="#experience">Experience</a></li>
-            <li><a class="smoothscroll dropdown-content" href="#education">Education</a></li>
-          </ul> -->
         <li><a class="smoothscroll" href="#portfolio">Works</a></li>
         <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
         <li><a class="smoothscroll" href="#links">Links</a></li>
       </ul>
     </nav>
 
+    <!-- Home / Top of webpage === -->
     <div class="row banner">
       <div class="banner-text">
         <h1 class="responsive-headline">Noory Kim</h1>
@@ -72,117 +70,98 @@
   </header>
 
 
+  <!-- JOB EXPERIENCE === -->
+  <section id="experience" class="resume-section work">
+    <div class="row">
 
-
-  <!-- JOB EXPERIENCE ============================= -->
-  <section id="experience" class="resume-section">
-    <div class="row work" >
-
-      <div class="twelve columns section-header">
-        <h1><span>Recent Experience</span></h1>
+      <div class="twelve columns resume-section-header">
+        <h1><span>Recent Work Experience</span></h1>
       </div>
 
       <div class="twelve columns main-col">
-          <div class="row item">
-             <div class="ten columns">
-                <h3>CROS NT LLC</h3>
-                <p class="resume-info">Statistical Programmer<span>&bull;</span> <em class="date">2016.07 - 2017.07</em></p>
 
-                <p class="resume-info">Biostatistician<span>&bull;</span> <em class="date">2014.07 - 2016.07</em></p>
-
-                <p class="resume-info">Chapel Hill, NC, USA</p>
-
-
-                <ul class="resume-li">
-                  <li><strong>Programming</strong>: Wrote specifications for data sets. Programmed data sets and TLFs (tables, listings, and figures) using SAS. Validated data sets per CDISC standards using Pinnacle 21. Validated TLFs (tables, listings, and figures) using SAS. Wrote SAS macros and functions.</li>
-                  <li><strong>Statistical work</strong>: Reviewed and edited Statistical Analysis Plans. Drafted shells for TLFs. Determined sample sizes. Answered client questions.</li>
-                  <li><strong>Preparing and writing documentation</strong>: Prepared CDISC SDTM documentation including aCRFs (annotated case report forms), metadata files, define.xml files, and Study Data Reviewers' Guides. Drafted SOP-related work instructions for good programming practices and validation checklists. Compile documents for Trial Master Files (TMFs).</li>
-                  <li><strong>Training</strong>: Conducted internal training sessions on SAS and CDISC topics. Delivered presentations at SAS user group conferences. (SESUG 2016, PharmaSUG 2017)</li>
-
-                </ul>
-
-
-
-             </div>
-
-             <div class="two columns">
-                 <a href="http://crosnt.com/" target="_blank"><img  src="images/crosnt_logo.png" alt="crosnt_logo"></a>
-             </div>
-
-          </div> <!-- item end -->
-
-          <div class="row item">
-
-             <div class="twelve columns">
-
-                <h3>Super Cool Studio</h3>
-                <p class="resume-info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                <p>
-                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
-
-             </div>
+        <div class="row item">
+          <div class="ten columns">
+            <h3>CROS NT LLC</h3>
+            <p class="resume-info">Statistical Programmer<span>&bull;</span> <em class="date">2016.07 - 2017.07</em></p>
+            <p class="resume-info">Biostatistician<span>&bull;</span> <em class="date">2014.07 - 2016.07</em></p>
+            <p class="resume-info">Chapel Hill, NC, USA</p>
+            <ul class="resume-li">
+              <li><strong>Programming</strong>: Wrote specifications for data sets. Programmed data sets and TLFs (tables, listings, and figures) using SAS. Validated data sets per CDISC standards using Pinnacle 21. Validated TLFs (tables, listings, and figures) using SAS. Wrote SAS macros and functions.</li>
+              <li><strong>Statistical work</strong>: Reviewed and edited Statistical Analysis Plans. Drafted shells for TLFs. Determined sample sizes. Answered client questions.</li>
+              <li><strong>Preparing and writing documentation</strong>: Prepared CDISC SDTM documentation including aCRFs (annotated case report forms), metadata files, define.xml files, and Study Data Reviewers' Guides. Drafted SOP-related work instructions for good programming practices and validation checklists. Compile documents for Trial Master Files (TMFs).</li>
+              <li><strong>Training</strong>: Conducted internal training sessions on SAS and CDISC topics. Delivered presentations at SAS user group conferences. (SESUG 2016, <a href="https://pharmasug.org/proceedings/2017/TT/PharmaSUG-2017-TT07.pdf" target="_blank">PharmaSUG 2017</a>)</li>
+            </ul>
           </div>
-       </div>
+          <div class="two columns">
+            <a href="http://crosnt.com" target="_blank"><img src="images/crosnt_logo.png" alt="crosnt"></a>
+          </div>
+        </div>
+
+        <div class="row item">
+          <div class="ten columns">
+            <h3>Collaborative Studies Coordinating Center, UNC</h3>
+            <p class="resume-info">Graduate Research Assistant<span>&bull;</span> <em class="date">2011.08 - 2013.08</em></p>
+            <p class="resume-info">Chapel Hill, NC, USA</p>
+            <ul class="resume-li">
+              <li><strong>Programming</strong>: Authored and published the open-source <a href="https://cran.r-project.org/package=SAMURAI" target="_blank">R package SAMURAI</a> to allow end-users the ability to visualize the impact of unpublished but registered studies in a meta-analysis.</li>
+              <li><strong>Technical writing</strong>: Prepared illustrated how-to documentation for end-users. Published peer-reviewed journal article (<a href="https://doi.org/10.1186/2046-4053-3-27" target="_blank"><em>Systematic Reviews</em> 2014 3:27</a>).</li>
+            </ul>
+          </div>
+          <div class="two columns">
+            <a href="http://sites.cscc.unc.edu/cscc" target="_blank"><img  src="images/unc_well.jpg" alt="cscc_unc"></a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </section>
-    <!-- End Work -->
-
-<section id="education" class="resume-section">
-    <!-- EDUCATION -->
-    <div class="row education" >
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of North Carolina at Chapel Hill</h3>
-                  <p class="resume-info">MS Biostatistics <span>&bull;</span> <em class="date"> 2013</em></p>
-
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>School of Cool Designers</h3>
-                  <p class="resume-info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
 
 
- </section> <!-- Resume Section End-->
+  <!-- EDUCATION -->
+  <section id="education" class="resume-section">
+    <div class="row education">
+
+      <div class="twelve columns resume-section-header">
+        <h1><span>Education</span></h1>
+      </div>
+
+      <div class="twelve columns main-col">
+
+        <div class="row item">
+          <div class="two columns">
+            <a href="http://sph.unc.edu/bios/biostatistics" target="_blank"><img  src="images/unc_well.jpg" alt="University of North Carolina at Chapel Hill"></a>
+          </div>
+          <div class="ten columns">
+            <h3>University of North Carolina</h3>
+            <p class="resume-info">MS Biostatistics<span>&bull;</span> <em class="date">2010 - 2013</em></p>
+            <p class="resume-info">Chapel Hill, NC, USA</p>
+            <ul class="resume-li">
+              <li><strong>Biostatistics</strong> courses include Generalized Linear Models (763), Categorical Data Analysis (765), Longitudinal Data Analysis (767), Survival Analysis (680), and Statistical Consulting (841).</li>
+              <li><strong>Epidemiology</strong> courses include Clinical Trials (733) and Infectious Diseases at the Community Level (753).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row item">
+          <div class="two columns">
+            <a href="http://www.towson.edu/fcsm/departments/mathematics" target="_blank"><img  src="images/towson_logo.jpg" alt="Towson University"></a>
+          </div>
+          <div class="ten columns">
+            <h3>Towson University</h3>
+            <p class="resume-info">MS Applied Mathematics<span>&bull;</span> <em class="date">2007 - 2010</em></p>
+            <p class="resume-info">Towson, MD, USA</p>
+            <ul class="resume-li">
+              <li><strong>Epidemiology</strong> courses include Clinical Trials (733) and Infectious Diseases at the Community Level (753).</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
 
 
  <!-- Resume Section == -->
