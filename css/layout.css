@@ -139,8 +139,11 @@ header .scrolldown a:hover {
    opacity: 0.7;
 }
 /* hide toggle button */
-.nav-bar a.mobile-btn {
+.nav-bar > a.mobile-btn {
   display: none;
+}
+.opaque {
+    background-color: #333;
 }
 
 .nav-bar > ul,
