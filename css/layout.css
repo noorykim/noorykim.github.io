@@ -43,11 +43,11 @@ body {
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
+   height: 300px;
+   min-height: 200px;
+   /*width: 100%;*/
    background: url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover ;
+   background-size: cover;
    -webkit-background-size: cover ;
    text-align: center;
    overflow: hidden;
@@ -65,7 +65,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 0px;
    text-align: center;
 }
 
@@ -73,12 +73,18 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 80px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
-   letter-spacing: -2px;
+   letter-spacing: -3px;
    margin: 0 auto 18px auto;
+   padding: 30px 0 60px 0;
    /* font border */
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+  font: 32px/1.5em 'opensans-bold', sans-serif;
+  padding: 120px 0 0 0;
+  margin: 0 auto 0 auto;
 }
 
 /* page abstract / summary */
@@ -160,7 +166,7 @@ header .scrolldown a:hover {
    top: 0;
 
    background-color: #016602;
-   opacity: 1.0;
+   opacity: 0.8;
 }
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
@@ -218,13 +224,14 @@ header .scrolldown a:hover {
 /* ------------------------------------------------------------------ */
 
 .resume-section {
-   background: #f7e6cf;
+   /*background: #f7e6cf;*/
+   background: #fff;
    /*padding-top: 30px;
    padding-bottom: 20px;
    overflow: hidden;*/
 }
 
-.resume-li {
+.resume-li{
   font: 16px/24px 'opensans', sans-serif;
 }
 .resume-li strong {
@@ -249,7 +256,7 @@ header .scrolldown a:hover {
   padding-top: 9px;
 }
 .resume-section .main-col {
-  padding-right: 10%;
+  padding: 0 10% 0 0 ;
 }
 
 .resume-section-footer {
@@ -276,9 +283,17 @@ header .scrolldown a:hover {
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-.portfolio {
-   /*background: #a8dfff;*/
+
+#skills {
+   background: #a8dfff;
 }
+
+/*#portfolio {*/
+   /*background: #4973b7;*/
+   /*background: #5AB183;*/
+   /*background: #256dfc;
+   color: white
+}*/
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
